@@ -44,15 +44,7 @@ Data Engineer passionate about building scalable data pipelines and turning raw 
 **Tech**: Python • Airflow • dbt • BigQuery • Streamlit  
 End-to-end data pipeline processing football match data from multiple APIs. Features automated data quality checks, dimensional modeling, and interactive dashboards for performance analytics.
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](link-to-repo)
-
----
-
-### 🎮 Gaming Industry Analytics
-**Tech**: Python • Kafka • Spark • Snowflake  
-Real-time analytics platform for gaming telemetry. Processes millions of events daily to compute player engagement metrics, retention cohorts, and monetization funnels.
-
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](link-to-repo)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/CR7REX/sports-analytics-pipeline)
 
 ---
 
@@ -60,7 +52,7 @@ Real-time analytics platform for gaming telemetry. Processes millions of events 
 **Tech**: Python • Airflow • dbt • Great Expectations  
 Alternative data aggregation platform combining market data with sentiment analysis from social media. Features comprehensive data lineage and automated quality monitoring.
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](link-to-repo)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/CR7REX/financial-data-platform)
 
 ---
 
@@ -87,7 +79,6 @@ Alternative data aggregation platform combining market data with sentiment analy
 I'm always interested in collaborating on data engineering projects, especially in:
 - **Quantitative finance & algorithmic trading**
 - **Sports analytics & real-time data processing**
-- **Gaming industry data infrastructure**
 
 Feel free to reach out!
 
