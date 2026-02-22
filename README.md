@@ -1,92 +1,57 @@
-# Hi, I'm Rex 👋
+# Hi, I'm Rex
+
+I build data pipelines for a living and obsess over football stats for fun. Currently figuring out how to do both at the same time.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/qishi-xing-rex)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:cr7rex1@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/CR7REX)
 
-## 🚀 About Me
+## What I actually do
 
-Data Engineer passionate about building scalable data pipelines and turning raw data into actionable insights. With a strong foundation in quantitative finance and a love for clean, efficient code, I bridge the gap between complex data systems and business value.
+Mostly Python, SQL, and yelling at Airflow DAGs when they fail at 3am. I've spent way too much time thinking about data quality, which sounds boring until you realize bad data has cost companies millions. Now I can't unsee it.
 
-- 🔭 Currently working on: **Real-time data pipelines & algorithmic trading systems**
-- 🌱 Learning: **Advanced streaming architectures & MLOps**
-- ⚡ Fun fact: **Football fanatic, gamer, and forever curious about the intersection of finance and technology**
+I started in quantitative finance (hence the trading bots), got into data engineering because ETL pipelines are basically puzzles with higher stakes, and somehow ended up building football analytics pipelines in my free time. Not sure what that says about me.
 
----
+**Current status:** Trying to make real-time streaming less of a headache. It's not going great.
 
-## 🛠️ Tech Stack
+## Tools I use (and sometimes fight with)
 
-### Data Engineering
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat&logo=apache-spark&logoColor=white)
+- **Python** - my comfort zone
+- **SQL** - surprisingly still relevant despite what the NoSQL folks promised
+- **Airflow** - love-hate relationship, mostly hate when tasks randomly fail
+- **dbt** - actually lives up to the hype
+- **Kafka** - still learning this one, currently breaking things
+- **Docker** - because "it works on my machine" isn't acceptable
 
-### Databases & Warehouses
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=google-cloud&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+Dabbled in Spark, Snowflake, BigQuery, the usual suspects. Still don't fully understand Kubernetes and at this point I'm too afraid to ask.
 
-### Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+## Projects I'm working on
 
----
+**⚽ Sports Analytics Pipeline** | [Repo](https://github.com/CR7REX/sports-analytics-pipeline)
 
-## 📊 Featured Projects
+Football data pipeline because manually checking league tables is annoying. Pulls match data daily, runs it through dbt models, spits out a Streamlit dashboard. Currently debating whether to add betting odds (for educational purposes, obviously).
 
-### ⚽ Sports Analytics Pipeline
-**Tech**: Python • Airflow • dbt • BigQuery • Streamlit  
-End-to-end data pipeline processing football match data from multiple APIs. Features automated data quality checks, dimensional modeling, and interactive dashboards for performance analytics.
+**📈 Financial Data Platform** | [Repo](https://github.com/CR7REX/financial-data-platform)
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/CR7REX/sports-analytics-pipeline)
+Playing around with market data + sentiment analysis. The Reddit sentiment part is mostly for entertainment value. spaCy + keyword matching, nothing fancy. Still trying to prove if sentiment actually predicts anything (spoiler: probably not).
 
----
+**📝 SQL Cookbook** | [Repo](https://github.com/CR7REX/sql-cookbook)
 
-### 📈 Financial Data Platform
-**Tech**: Python • Airflow • dbt • Great Expectations  
-Alternative data aggregation platform combining market data with sentiment analysis from social media. Features comprehensive data lineage and automated quality monitoring.
+Just a dumping ground for SQL patterns I keep forgetting. Window functions, CTEs, optimization tricks. Mostly so I don't have to google the same syntax for the hundredth time.
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/CR7REX/financial-data-platform)
-
----
-
-## 📈 GitHub Stats
+## Stats nobody asked for
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=CR7REX&theme=github-dark&hide_border=true)](https://git.io/streak-stats)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CR7REX&layout=compact&theme=github_dark&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+## Let's talk
+
+Always up for chatting about:
+- Data engineering war stories
+- Why your ETL pipeline is probably broken (I've seen things)
+- Football analytics - xG debates welcome
+- Whether Airflow 3 will actually fix anything
+
+**cr7rex1@gmail.com** | [LinkedIn](https://www.linkedin.com/in/qishi-xing-rex/)
 
 ---
 
-## 📝 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-- [Building Production-Ready Data Pipelines with Airflow and dbt](link)
-- [Real-time Streaming: Lessons from Building a Trading System](link)
-- [Data Quality Testing with Great Expectations: A Practical Guide](link)
-<!-- BLOG-POST-LIST:END -->
-
----
-
-## 🤝 Let's Connect
-
-I'm always interested in collaborating on data engineering projects, especially in:
-- **Quantitative finance & algorithmic trading**
-- **Sports analytics & real-time data processing**
-
-Feel free to reach out!
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/qishi-xing-rex)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cr7rex1@gmail.com)
-
----
-
-*"Data is the new oil, but like oil, it's only valuable when refined."* ⛽
-
-</div>
+*"The data is always messier than you think. Always."*
