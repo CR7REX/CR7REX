@@ -38,10 +38,6 @@ Playing around with market data + sentiment analysis. The Reddit sentiment part 
 
 Just a dumping ground for SQL patterns I keep forgetting. Window functions, CTEs, optimization tricks. Mostly so I don't have to google the same syntax for the hundredth time.
 
-## Stats nobody asked for
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=CR7REX&theme=github-dark&hide_border=true)](https://git.io/streak-stats)
-
 ## Let's talk
 
 Always up for chatting about:
